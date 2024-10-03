@@ -28,7 +28,7 @@ Password: Qwerty123!
 
 ## Technologies used
 
--   [Laravel 9](https://laravel.com/)
+-   [Laravel 11](https://laravel.com/)
 -   [MySQL](https://www.mysql.com/)
 
 ## Developed and tested in:
