@@ -10,7 +10,7 @@ class PostController extends Controller
 {
     public function index(Request $request): JsonResponse
     {
-        $posts = Post::paginate(10);
+        $posts = Post::with(['author', 'comments'])->paginate(10);
 
         return response()->json($posts);
     }

@@ -26,6 +26,10 @@
 email: admin@email.com\
 Password: Qwerty123!
 
+## Run test
+
+`php artisan test`
+
 ## Technologies used
 
 -   [Laravel 11](https://laravel.com/)
